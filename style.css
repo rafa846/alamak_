@@ -176,17 +176,18 @@ body {
 
 }
 
-@media screen and (max-width:1200px) and (min-width:1080px) {
+@media screen and (max-width:1500px) and (min-width:1080px) {
     .data {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         height: 100%;
-        width: 500px;
+        width: 450px !important;
         position: relative;
-        right: 4em;
-        bottom: 1em
+        right: 1em;
+        bottom: 5em;
+        font-size: 25px;
     }
 }
 
@@ -229,7 +230,7 @@ body {
         height: 100%;
         position: relative;
         right: 7em;
-        top:2em;
+        top: 2em;
         font-size: 10px;
     }
 
@@ -245,13 +246,83 @@ body {
     }
 
     .container-contact {
-        height:360px;
-        display:flex;
-        align-items:center;
-        justify-content:center;
+        height: 360px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 
+}
+
+@media screen and (max-height:360px) {
+    .data {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+        position: relative;
+        right: 4em;
+        bottom: 1em;
+        font-size: 10px;
+        width: 200px;
+    }
+
+    .container-photo {
+        display: flex;
+        align-items: center;
+        width: 200px;
+        height: 200px;
+        float: right;
+        overflow: hidden;
+        position: relative;
+        right: 1em;
+        bottom: 1em;
+        margin-top: 0em;
+        padding-top: 5em;
+
+    }
+
+    .profil-content-contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+
+    }
+
+    .profil-content-contact img {
+
+        width: 100px !important;
+        height: 100px !important;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .container-contact {
+        height: 360px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        bottom: 10em;
+    }
+
+    .box-contact {
+        background-color: white;
+        width: 300px !important;
+        height: 70px !important;
+        border-radius: 15px;
+        box-shadow: 4px 4px 5px black;
+        display: flex;
+        align-items: center;
+
+    }
 }
 
 /* content */
@@ -357,7 +428,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .wrapper-contact {
