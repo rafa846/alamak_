@@ -252,6 +252,14 @@ body {
         justify-content: center;
     }
 
+    .box {
+        background-color: white;
+        height: 150px !important;
+        width: 200px !important;
+        padding: 20px;
+
+    }
+
 
 }
 
