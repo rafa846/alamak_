@@ -190,6 +190,15 @@ body {
         bottom: 1em
     }
 }
+@media screen and (max-width:360px) {
+    .menu a {
+        font-size:5px;
+    }
+    .container-photo {
+        position: relative;
+        bottom:50px;
+    }
+}
 
 /* content */
 /* content */
